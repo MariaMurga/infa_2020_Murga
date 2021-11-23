@@ -28,7 +28,8 @@ for i in range(len(pool)):
     Vx.append(randint(-150, 150))
     Vy.append(randint(-150, 150))
     pool[i].goto(X[i], Y[i])
-
+    
+#ЗСЭ + ЗСИ + считаем массы частиц одинаковыми => при столкновении частицы обмеиваются скоростями
 while 1 < 2:
     for j in range(len(pool)):
         #стенки
